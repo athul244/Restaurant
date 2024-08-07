@@ -1,0 +1,286 @@
+*{
+    
+    font-family: "DM Serif Text", serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+#container{
+    background-image: url(./media/burgerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+}
+#navbar{
+    padding-top: 3%;
+    display:flex;
+    width: 85%;
+    margin-left: 12%;
+    justify-content: space-between ;
+    align-items: center;
+}
+.li{
+    list-style: none;
+    display: inline;
+    margin: 10px 20px 10px 20px;
+    font-size: 25px;
+}
+.li:hover{
+    color: white;
+    font-size: 30px;
+}
+li a{
+    text-decoration: none;
+    color: goldenrod;
+}
+#navbar h2{
+    font-size: 60px;
+    color: goldenrod;
+}
+button a{
+    text-decoration: none;
+}
+#navbar button{
+    font-size: 30px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.338);
+    width: 220px;
+    height: 3rem;
+    border-radius: 8px;
+    border: none;
+    border: 2px solid white;
+}
+#navbar ul{
+    margin-left: 240px;
+}
+#moto{
+    text-align: left;
+    margin-left: 65%;
+    margin-top: 8%;
+}
+#moto h5{
+    font-size: 55px;
+    margin-bottom: -30px;
+    
+}
+#moto h2{
+    font-size: 70px;
+    margin-bottom: -40px;
+}
+#moto h1{
+    font-size: 80px;
+    margin-bottom: -45px;
+    color: goldenrod;
+}
+#menu{
+    width: 100%;
+    height: 100vh;
+    margin-top: 20.6%;
+    background-image: url(./media/menu\ \ aaaa.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 2%;
+    background-color: rgba(255, 255, 255, 0.255);
+}
+.cards img{
+    width: 220px;
+    height: 150px;
+}
+.cards h2{
+    margin-top: 14px;
+    font-size: 22px;
+    color: black;
+}
+.cards{
+    border: none;
+    border-radius: 9%;
+    width: 250px;
+    height: 225px;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    margin-left: 96px;
+    background-color: rgba(255, 255, 255, 0.307);
+    /* padding-top: 10px ; */
+}
+#menucap{
+    text-align: center;
+    width: 450px;
+    /* background-color: rgba(255, 255, 255, 0.436);  */
+    margin-left: 55%;
+    height: 200px;
+    margin-top: 300px;
+    position: absolute;
+}
+#menucap h2{
+    font-size: 80px;
+    color: goldenrod;
+}
+#menucap h3{
+    font-size: 40px;
+    color: white;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+}
+#about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./media/about.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    /* border: 1px solid red; */
+}
+#about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity (0.5 in this case) */
+}
+#about h1{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    margin-top: 12%;
+    margin-left: 5%;
+    /* background-color: rgba(255, 255, 255, 0.436); */
+}
+#about p{
+    position: absolute;
+    justify-content: left;
+    background-color: rgba(255, 255, 255, 0.436); 
+    width: 40%;
+    margin-top: 20%;
+    margin-left: 3%;
+    color: black;
+    text-align:left ;
+}
+#contact{
+    width: 100%;
+    height: 100vh;   
+    background-image: url(./media/contact.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -61px;
+    position: relative;
+}
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity (0.5 in this case) */
+}
+#bleh h1{
+    position: absolute;
+    color: goldenrod;
+    margin-top: 4%;
+    margin-left: 40%;
+    font-size: 50px;
+}
+#contactus{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10%;
+    padding: 4% 4%;
+    margin-top: 8%;
+}
+#contactus div h4{
+    color: goldenrod;
+}
+#contactus div p{
+
+    color: white;
+}
+#contact iframe{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 29%;
+}
+footer{
+    background-image: linear-gradient(to bottom,black,rgb(64, 63, 63));
+    height: 320px;
+    position: relative;
+}
+footer p{
+    position: absolute;
+    text-align: center;
+    margin-top: 14px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-left: 45%;
+}
+.uparrow a{
+    position: absolute;
+    color: white;
+    background-image: linear-gradient(to bottom,grey,rgb(67, 66, 66));
+    width: 50px;
+    height: 50px;
+    border-radius:  50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 95%;
+    margin-top: 14px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+#foot{
+    padding-top: 100px;
+    display: flex;
+    margin-left: 100px;
+    padding-left: 5%;
+}
+#foot h1{
+    font-size: 40px;
+    color: goldenrod;
+}
+#foot ul{
+    margin-left: 280px;
+    margin-top: -10px;
+}
+#foot ul li{
+    margin-top: 20px;
+    list-style: none;
+}
+#foot ul li i{
+    color:deepskyblue;
+}
+#shub{
+    margin-left: 100px;
+}
+.pls{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 7px;
+}
+footer p{
+    margin-top: 50px;
+    font-size: 11px;
+}
+
